@@ -19,9 +19,7 @@ import com.sun.mail.smtp.SMTPTransport;
 
 public class SecureSMTPAppender extends SMTPAppender {
 
-	/**
-	   * Cached session for later use i.e. while sending emails
-	   */
+	
 	  protected Session session;
 
 	  public SecureSMTPAppender()
